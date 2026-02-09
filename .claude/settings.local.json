@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uvx --version:*)",
+      "Bash(curl:*)",
+      "Bash(sh:*)",
+      "Bash(source $HOME/.local/bin/env)",
+      "mcp__nanobanana__generate_image",
+      "Bash(git init:*)",
+      "Bash(git lfs:*)",
+      "Bash(brew install:*)",
+      "Bash(conda install:*)",
+      "Bash(pip install:*)",
+      "Bash(port version:*)",
+      "Bash(sw_vers:*)",
+      "Bash(export PATH=\"$HOME/bin:$PATH\")",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd Wild Fern Café site with AI-generated images\n\nBuilt out full HTML/CSS coffee shop website with hero, about, menu,\nand contact pages. Added AI-generated images via nanobanana MCP for\nhero background, about feature, menu hero, and four team portraits.\nImages tracked with Git LFS. Configured .gitignore to exclude .env,\n.mcp.json, node_modules, and auto-generated thumbnails.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(gh auth status:*)"
+    ]
+  }
+}
